@@ -1,18 +1,18 @@
 footer{
-    flex: 1.2;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
     background-color: #F2F2F2;
-    padding: 10px;
-    font-size: 0.9em;
     }
-footer ul li{
+
+footer nav section ul li{
     list-style-type: none;
     }
-footer ul li a{
+
+footer nav section ul li a{
     text-decoration-line: none;
     text-decoration-color: none;
     color: grey
     }
-footer ul li a:hover{
+footer nav section ul li a:hover{
     text-decoration-line: underline;
     }
