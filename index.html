@@ -8,6 +8,7 @@
 
         <meta charset="UTF-8" />
 		<link type="text/css" rel="stylesheet" href="styles.css" />
+        <script src="https://kit.fontawesome.com/5d8e9e7fa8.js" crossorigin="anonymous"></script>
 		<title>Reservia - Trouvez votre hébergement pour vos vacances de rêves </title>
 
     </head>
@@ -24,7 +25,7 @@
             <!--insérer logo-->
             <nav>
 
-                <a href="#accomodation"> Hébergements </a> 
+                <a href="#accomodation"> Hébergements </a>
                 <a href="#activities" > Activités </a>
                 <a href="signup"> S'inscrire </a>
             
@@ -39,7 +40,15 @@
         
             <p class="secondarytext">En plein centre ville ou en pleine nature </p>
 
-            <!-- Insérer barre de recherche et filtres-->
+            <div class="Searchzone">
+                <i class="fas fa-map-marker-alt"></i>
+                <form method="post">
+                    <p>
+                        <label for="searchbar"></label>
+                        <input type="search" name="searchbar" id="searchbar" placeholder="Marseille, France" autocomplete="on" size="30"/>
+                    </p>
+                </form>
+            </div>
             <p class="filters"> Filtres </p>
 
             <p class="secondarytext"> Plus de 500 logements sont disponibles dans cette ville </p>
