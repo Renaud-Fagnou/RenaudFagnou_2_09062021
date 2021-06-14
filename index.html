@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
-<html>
-
-    <!-- HEAD -->
+<html lang="fr">
 
     <head>
 
@@ -13,19 +11,16 @@
 
     </head>
 
-    <!-- HEAD -->
-
-
-    <!-- BODY -->
-
     <body>
 
         <header>   
-            <img src="images/logo/Reservia.svg">
+            <img src="images/logo/Reservia.svg" alt="reservia">
             <nav>
-                <a href="#accomodation"> Hébergements </a>
-                <a href="#activities" > Activités </a>
-                <a href="signup"> S'inscrire </a>
+                <ul>
+                    <li><a href="#accomodation"> Hébergements </a></li>
+                    <li><a href="#activities" > Activités </a></li>
+                    <li><button type="button" class="signupbutton"> S'inscrire </button></li>
+                </ul>
             </nav>
             <h1> Trouvez votre hébergement pour des vacances de rêve </h1>
             <p class="secondarytext">En plein centre ville ou en pleine nature </p>
@@ -34,22 +29,22 @@
         <section class="searching">
             <div class="Searchbarzone">
                 <form method="post">
-                    <button type="button"><i class="fas fa-map-marker-alt"></i></button>
+                    <button type="button" class="mapbutton"><i class="fas fa-map-marker-alt"></i></button>
                     <p>
                         <label for="searchbar"></label>
                         <input type="search" name="searchbar" id="searchbar" placeholder="Marseille, France" autocomplete="on" size="30"/>
                     </p>
-                    <button type="submit">Rechercher</button>
+                    <button type="submit" class="searchbutton">Rechercher</button>
                 </form>
             </div>
             <div class="filters">
-                <p class="filterstitle"> Filtres </p>
+                <h3 class="filterstitle"> Filtres </h3>
                     <div class="filtersgeneralstyle">
                         <div class="filtersicon"><i class="fas fa-money-bill-wave"></i></div>
                         <span class="filtersname"> Économique </span>
                     </div>
                     <div class="filtersgeneralstyle">
-                        <div class="filtersicon"><i class="fas fa-child"></i></i></div>
+                        <div class="filtersicon"><i class="fas fa-child"></i></div>
                         <span class="filtersname"> Familial </span>
                     </div>
                     <div class="filtersgeneralstyle">
@@ -64,49 +59,154 @@
             <p class="secondarytext"><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville </p>
         </section>
 
-        <section>
-            <h2 id="accomodation"> Hébergements à Marseille </h2>
+        <main>
+            <section class="accomodationsection">
+                <h2 id="accomodation"> Hébergements à Marseille </h2>
+                <article>
+                    <a href="en_construction">
+                    <figure class="accomodationfigure">
+                        <img class="accomodationfigureimg"src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"alt="Chambre à lit superposé avec vue sur rues en ville.">
+                        <figcaption>
+                          <h3> Auberge la Cannebière </h3>
+                        </figcaption>
+                    </figure>
+                    <p class="nightfrom"> Nuit à partir de <strong>25&euro;</strong></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="en_construction">
+                    <figure class="accomodationfigure">
+                        <img class="accomodationfigureimg"src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"alt="Chambre à deux lits simples situé à proximité du port.">
+                        <figcaption>
+                          <h3> Hôtel du port </h3>
+                        </figcaption>
+                    </figure>
+                    <p class="nightfrom"> Nuit à partir de <strong>52&euro;</strong></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="en_construction">
+                    <figure class="accomodationfigure">
+                        <img class="accomodationfigureimg"src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"alt="Chambre à lit superposé avec vue sur rues en ville.">
+                        <figcaption>
+                          <h3> Hôtel Les mouettes </h3>
+                        </figcaption>
+                    </figure>
+                    <p class="nightfrom"> Nuit à partir de <strong>76&euro;</strong></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="en_construction">
+                    <figure class="accomodationfigure">
+                        <img class="accomodationfigureimg"src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"alt="Chambre esprit marin à lit double .">
+                        <figcaption>
+                          <h3> Hôtel de la mer </h3>
+                        </figcaption>
+                    </figure>
+                    <p class="nightfrom"> Nuit à partir de <strong>46&euro;</strong></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="en_construction">
+                    <figure class="accomodationfigure">
+                        <img class="accomodationfigureimg"src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"alt="Chambre pour quatre personnes composée de deux lit superposés en bois.">
+                        <figcaption>
+                          <h3> Auberge Le Panier </h3>
+                        </figcaption>
+                    </figure>
+                    <p class="nightfrom"> Nuit à partir de <strong>23&euro;</strong></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="en_construction">
+                    <figure class="accomodationfigure">
+                        <img class="accomodationfigureimg"src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"alt="Chambre avec deux lits simples, un bureau et une télé.">
+                        <figcaption>
+                          <h3> Hôtel chez Amina </h3>
+                        </figcaption>
+                    </figure>
+                    <p class="nightfrom"> Nuit à partir de <strong>96&euro;</strong></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </a>
+                </article>
                 <aside>
-                <h2> Les plus populaires </h2><i class="fas fa-chart-line"></i>
-            </aside>
-        </section>
-        <h2 id="activities"> Activités à Marseille </h2>
-
-    </body>
-
-    <!-- BODY -->
-
-
-    <!-- FOOTER -->
-
-    <footer>  
-        <nav>
-            <section>
-                <h2> A propos </h2>
-                <ul>
-                    <li><a href="en_construction"> Fonctionnement du site </a></li>
-                    <li><a href="en_construction"> Conditions générales de ventes </a></li>
-                    <li><a href="en_construction"> Données et confidentialité </a></li>
-                </ul>
+                    <h2> Les plus populaires </h2><button type="button" class="trendingbutton"><i class="fas fa-chart-line"></i></button>
+                </aside>
             </section>
-            <section>
-                    <h2 >Nos hébergements </h2>
+                
+            <section class="activitiessection">
+                <h2 id="activities"> Activités à Marseille </h2>
+            </section>
+        </main>
+
+        <footer>  
+            <nav>
+                <section>
+                    <h3> A propos </h3>
+                    <ul>
+                        <li><a href="en_construction"> Fonctionnement du site </a></li>
+                        <li><a href="en_construction"> Conditions générales de ventes </a></li>
+                        <li><a href="en_construction"> Données et confidentialité </a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Nos hébergements </h3>
                     <ul>
                         <li><a href="en_construction"> Charte qualité </a></li>
                         <li><a href="en_construction"> Soummettre votre hôtel </a></li>
                     </ul>
                 
-            </section>
-            <section>
-                    <h2>Assistance</h2>
+                </section>
+                <section>
+                    <h3>Assistance</h3>
                     <ul>
                             <li><a href="en_construction"> Centre d'aide </a></li>
                             <li><a href="en_construction"> Nous contacter </a></li>
                     </ul> 
-            </section>
-        </nav>
-    </footer>
-
-    <!-- FOOTER -->
+                </section>
+            </nav>
+        </footer>
+    </body>
 
 </html>

@@ -1,3 +1,6 @@
+body header nav ul li{
+    list-style-type: none;
+    }
 footer{
     background-color: #F2F2F2;
     }
