@@ -1,60 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 html{
     font-family: raleway;
-    }
+}
 body header nav ul li{
     display: flex;
     list-style-type: none;
-    }
+}
 .signupbutton{
     color: #0065FC;
-    }
+}
 .accomodationsection{
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    box-shadow: 0px 0px 5px gray;
     padding: 2em;
-    }
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);*/
+}
 .accomodationarticle{
     background-color: white;
     border-radius: 1.5em;
     padding: 2em;
-    }
+    display: inline-block;
+    box-shadow: 0px 0px 5px gray;
+}
 .populararticle{
     background-color: white;
     border-radius: 1.5em;
     padding: 2em;
-    }
+    box-shadow: 0px 0px 5px gray;
+}
 aside{
     background-color: #F2F2F2;
     border-radius: 1.5em;
     padding: 2em;
-    }
+}
+.activitiesarticle{
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 1.5em;
+    padding: 2em;
+}
 .stars{
     text-decoration-line: none;
     text-decoration-color: #0065FC;
-    }
+}
+.activitiessection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
 footer{
     background-color: #F2F2F2;
-    }
+}
+footer section{
+    width: 25%;
+    text-align: left;
+}
 footer nav{
     display:flex;
+    justify-content: space-around;
     justify-content: center;
-    }
-footer nav section{
-    display: flex;
-	justify-content: space-around;
-	align-items: center;
 }
 footer nav section ul li{
     list-style-type: none;
-    }
+}
 
 footer nav section ul li a{
     text-decoration-line: none;
     text-decoration-color: none;
     color: grey
-    }
+}
 footer nav section ul li a:hover{
     text-decoration-line: underline;
-    }
+}
