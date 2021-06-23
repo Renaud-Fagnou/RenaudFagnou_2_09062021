@@ -12,42 +12,57 @@ body header nav ul li{
 .accomodationsection{
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    padding: 2em;
+    padding: 1.5em;
+    margin: 1.5em;
+    display: inline-block;
+    width: 60%;
     /*display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);*/
 }
 .accomodationarticle{
-    background-color: white;
-    border-radius: 1.5em;
-    padding: 2em;
     display: inline-block;
-    box-shadow: 0px 0px 5px gray;
-}
-.populararticle{
     background-color: white;
     border-radius: 1.5em;
-    padding: 2em;
+    padding: 1.5em;
+    margin: 1.5em;
     box-shadow: 0px 0px 5px gray;
+    width: 20%;
 }
 aside{
+    display: inline-block;
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    padding: 2em;
+    padding: 1.5em;
+    margin: 1.5em;
+    width: 30%;
 }
+.populararticle{
+    display: inline-block;
+    background-color: white;
+    border-radius: 1.5em;
+    padding: 1.5em;
+    margin: 1.5em;
+    box-shadow: 0px 0px 5px gray;
+    width: 20%;
+}
+
 .activitiesarticle{
+    display: inline-block;
     box-shadow: 0px 0px 5px gray;
     border-radius: 1.5em;
-    padding: 2em;
+    padding: 1.5em;
+    margin: 1.5em;
 }
 .stars{
     text-decoration-line: none;
     text-decoration-color: #0065FC;
 }
 .activitiessection{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: inline-block;
+}
+h3{
+    text-align: left;
 }
 footer{
     background-color: #F2F2F2;
@@ -58,17 +73,16 @@ footer section{
 }
 footer nav{
     display:flex;
-    justify-content: space-around;
-    justify-content: center;
 }
 footer nav section ul li{
     list-style-type: none;
+    text-align: left;
 }
 
 footer nav section ul li a{
     text-decoration-line: none;
     text-decoration-color: none;
-    color: grey
+    color: grey;
 }
 footer nav section ul li a:hover{
     text-decoration-line: underline;
