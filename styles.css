@@ -2,23 +2,46 @@
 html{
     font-family: raleway;
 }
+.signupbutton{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+body header{
+    display: inline-block;
+}
+body header img{
+    float: left;
+}
+body header nav ul{
+    text-align: right;
+}
 body header nav ul li{
-    display: flex;
+    display: inline-block;
     list-style-type: none;
 }
-.signupbutton{
+body header nav ul li a{
+    text-decoration-line: none;
+}
+body header nav ul li a:hover{
     color: #0065FC;
+}
+body header nav ul li a:visited{
+    color: grey;
+}
+.signupbutton{
+    color: #0065FC;;
 }
 .accomodationsection{
     background-color: #F2F2F2;
     border-radius: 1.5em;
     padding: 1.5em;
-    margin: 1.5em;
     display: inline-block;
     width: 60%;
-    /*display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);*/
 }
 .accomodationarticle{
     display: inline-block;
@@ -33,7 +56,6 @@ aside{
     display: inline-block;
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    padding: 1.5em;
     margin: 1.5em;
     width: 30%;
 }
@@ -41,10 +63,9 @@ aside{
     display: inline-block;
     background-color: white;
     border-radius: 1.5em;
-    padding: 1.5em;
     margin: 1.5em;
+    padding: 1.5em;
     box-shadow: 0px 0px 5px gray;
-    width: 20%;
 }
 
 .activitiesarticle{
@@ -60,9 +81,6 @@ aside{
 }
 .activitiessection{
     display: inline-block;
-}
-h3{
-    text-align: left;
 }
 footer{
     background-color: #F2F2F2;
@@ -81,7 +99,6 @@ footer nav section ul li{
 
 footer nav section ul li a{
     text-decoration-line: none;
-    text-decoration-color: none;
     color: grey;
 }
 footer nav section ul li a:hover{
