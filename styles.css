@@ -2,15 +2,6 @@
 html{
     font-family: raleway;
 }
-.signupbutton{
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
 body header{
     display: inline-block;
 }
@@ -26,15 +17,59 @@ body header nav ul li{
 }
 body header nav ul li a{
     text-decoration-line: none;
+    color: grey;
 }
 body header nav ul li a:hover{
     color: #0065FC;
+    text-decoration-line: overline;
 }
 body header nav ul li a:visited{
-    color: grey;
+    color: none;
 }
 .signupbutton{
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
     color: #0065FC;;
+}
+.signupbutton:hover{
+    text-decoration-line: overline;
+}
+.searchbutton{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.filters{
+    display: inline-block;
+}
+.filters h3{
+    float: left;
+    margin-right: 1.5em;
+}
+.filtersgeneralstyle{
+    display: inline-block;
+    border: 3px solid #F2F2F2;
+    border-radius: 1.5em;
+}
+.filtersicon{
+    background-color: #DEEBFF;
+	color: #0065FC;
+	padding: 1em;
+    border-radius: 50%;
+	cursor: pointer;
+    float: left;
+}
+.filtersname{
+    color: black;
+    font-weight: bold;
 }
 .accomodationsection{
     background-color: #F2F2F2;
@@ -52,6 +87,10 @@ body header nav ul li a:visited{
     box-shadow: 0px 0px 5px gray;
     width: 20%;
 }
+.accomodationfigureimg{
+    max-width: 100%;
+	height: auto;
+}
 aside{
     display: inline-block;
     background-color: #F2F2F2;
@@ -67,13 +106,20 @@ aside{
     padding: 1.5em;
     box-shadow: 0px 0px 5px gray;
 }
-
+.popularfigureimg{
+    max-width: 100%;
+	height: auto;
+}
 .activitiesarticle{
     display: inline-block;
     box-shadow: 0px 0px 5px gray;
     border-radius: 1.5em;
     padding: 1.5em;
     margin: 1.5em;
+}
+.activitiesfigureimg{
+    max-width: 100%;
+	height: auto;
 }
 .stars{
     text-decoration-line: none;
