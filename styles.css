@@ -10,6 +10,9 @@ body header{
 body header img{
     float: left;
 }
+body header nav{
+    margin-right: 1%;
+}
 body header nav ul{
     text-align: right;
 }
@@ -45,19 +48,73 @@ body header nav ul li a:visited{
     text-decoration-line: underline;
     text-underline-offset: -3em;
 }
+h1{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+.secondarytext{
+    color: grey;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.searchbarzone form p i{
+    background-color: #F2F2F2;
+    border-radius: 1em 0 0 1em;
+	cursor: pointer;
+    padding: 1em;
+    line-height: 1.5em;
+}
+#searchbar{
+    background-color: inherit;
+    padding-top: 1.25em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    border-color: #F2F2F2;
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    margin: -0.3em;
+    line-height: 1.7em;
+    font-weight: bold;
+    color: black;
+}
+#searchbar::placeholder{
+    color: black;
+    font-size: 1.2em;
+}
+.searching .secondarytext{
+    line-height: 2em;
+}
+.searching .secondarytext i{
+    font-size: 0.8em;
+	color: #0065FC;
+	padding: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 0.8em;
+    padding-right: 0.6em;
+    margin-right: 0.5em;
+    border-radius: 100%;
+	cursor: pointer;
+    float: left;
+    height: 0.5em;
+    width: 0.5em;
+    border: 3px solid #F2F2F2;
+}
 .searchbutton{
 	background: #0065FC;
 	border-radius: 0 1em 1em 0;
-	padding: 0.5em;
-    margin: 0.5em;
+	padding: 0.75em;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
     color: white;
     font-weight: bold;
+    line-height: 1.7em;
 }
 .filters{
-    display: inline-block;
+    display: flex;
 }
 .filters h3{
     float: left;
@@ -65,17 +122,22 @@ body header nav ul li a:visited{
 }
 .filtersgeneralstyle{
     display: inline-block;
-    border: 3px solid #F2F2F2;
-    border-radius: 1.5em;
+    border: 2px solid #F2F2F2;
+    border-radius: 2em;
     height: 3em;
+    margin-right: 1em;
 }
 .filtersicon{
     background-color: #DEEBFF;
 	color: #0065FC;
 	padding: 1em;
-    border-radius: 50%;
+    margin-left: -0.2em;
+    margin-top: -0.005em;
+    border-radius: 100%;
 	cursor: pointer;
     float: left;
+    height: 1.1em;
+    width: 1.1em;
 }
 .filtersname{
     color: black;
@@ -88,18 +150,21 @@ body header nav ul li a:visited{
     background-color: #F2F2F2;
     border-radius: 1.5em;
     padding: 2%;
-    margin: 2%;
+    margin: 1%;
     margin-left: 0%;
     width: 55%;
     vertical-align: top;
+}
+.accomodationsection h2{
+    margin-left: 1%;
 }
 .accomodationarticle{
     display: inline-block;
     background-color: white;
     border-radius: 1.5em;
-    margin: 4%;
+    margin: 1%;
     box-shadow: 0px 0px 5px gray;
-    width: 20%;
+    width: 30%;
     height: 40%;
 }
 .accomodationarticle a{
@@ -109,7 +174,7 @@ body header nav ul li a:visited{
     text-decoration-line: none;
     font-weight: bold;
     color: black;
-    padding-left: 7%;
+    padding-left: 8%;
 }
 .accomodationfigureimg{
     object-fit: cover;
@@ -131,10 +196,14 @@ body header nav ul li a:visited{
     padding-left: 10%;
     padding-bottom: 10%;
 }
-.more{
+.accomodationsection div .more{
+    margin-top: 4%;
+}
+.accomodationsection div .more a{
     text-decoration-line: none;
     color: black;
     font-weight: bold;
+    margin-left: 1%;
 }
 figure{
     margin: 5px;
@@ -143,33 +212,38 @@ aside{
     display: inline-block;
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    padding: 1.5em;
-    margin: 1.5em;
+    padding: 1%;
+    margin: 1%;
     margin-right: 0%;
-    width: 30%;
+    width: 36%;
 }
 aside h2{
     display: flex;
     justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .populararticle{
     background-color: white;
+    border-radius: 1.5em;
+    margin: 5%;
+    box-shadow: 0px 0px 5px gray;
 }
 .populararticle a{
     text-decoration-line: none;
 }
 .populararticle .imgpart{
     display: inline-block;
-    width: 30%;
+    width: 40%;
 }
 .populararticle .textpart{
     display: inline-block;
-    width: 30%;
+    width: 40%;
 }
 .popularfigureimg{
     display: inline-block;
     object-fit: cover;
-    height: 14em;
+    height: 9.25em;
     width: 100%;
     border-radius: 1em 0 0 1em;
 }
@@ -215,6 +289,12 @@ footer section{
 }
 footer nav{
     display:flex;
+}
+footer nav section{
+    margin-right:5%;
+}
+footer nav section h3{
+    margin-left: 11%;
 }
 footer nav section ul li{
     list-style-type: none;
