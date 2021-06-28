@@ -4,6 +4,8 @@ html{
 }
 body header{
     display: inline-block;
+    padding-top: 2em;
+    width: 100%;
 }
 body header img{
     float: left;
@@ -18,10 +20,13 @@ body header nav ul li{
 body header nav ul li a{
     text-decoration-line: none;
     color: grey;
+    font-weight: bold;
+    margin-right: 0.5em;
 }
 body header nav ul li a:hover{
     color: #0065FC;
-    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-underline-offset: -3em;
 }
 body header nav ul li a:visited{
     color: none;
@@ -33,19 +38,23 @@ body header nav ul li a:visited{
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-    color: #0065FC;;
+    color: #0065FC;
+    font-weight: bold;
 }
 .signupbutton:hover{
-    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-underline-offset: -3em;
 }
 .searchbutton{
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
+	background: #0065FC;
+	border-radius: 0 1em 1em 0;
+	padding: 0.5em;
+    margin: 0.5em;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    color: white;
+    font-weight: bold;
 }
 .filters{
     display: inline-block;
@@ -58,6 +67,7 @@ body header nav ul li a:visited{
     display: inline-block;
     border: 3px solid #F2F2F2;
     border-radius: 1.5em;
+    height: 3em;
 }
 .filtersicon{
     background-color: #DEEBFF;
@@ -71,13 +81,14 @@ body header nav ul li a:visited{
     color: black;
     font-weight: bold;
     margin: 1.5em;
+    line-height: 3em;
 }
 .accomodationsection{
     display: inline-block;
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    padding: 1.5em;
-    margin: 1.5em;
+    padding: 2%;
+    margin: 2%;
     margin-left: 0%;
     width: 55%;
     vertical-align: top;
@@ -86,16 +97,47 @@ body header nav ul li a:visited{
     display: inline-block;
     background-color: white;
     border-radius: 1.5em;
-    padding: 0.5em;
-    margin: 1.5em;
+    margin: 4%;
     box-shadow: 0px 0px 5px gray;
     width: 20%;
+    height: 40%;
+}
+.accomodationarticle a{
+    text-decoration-line: none;
+}
+.accomodationarticle a figcaption{
+    text-decoration-line: none;
+    font-weight: bold;
+    color: black;
+    padding-left: 7%;
 }
 .accomodationfigureimg{
     object-fit: cover;
     height: 6em;
     width: 100%;
     border-radius: 1em 1em 0 0;
+}
+.accomodationarticle a p{
+    color: grey;
+    padding-left: 10%;
+}
+.accomodationarticle a p strong{
+    color: black;
+}
+.nightform{
+    color: grey;
+}
+.stars{
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+.more{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+}
+figure{
+    margin: 5px;
 }
 aside{
     display: inline-block;
@@ -105,22 +147,44 @@ aside{
     margin: 1.5em;
     margin-right: 0%;
     width: 30%;
-    vertical-align: top;
+}
+aside h2{
+    display: flex;
+    justify-content: space-between;
 }
 .populararticle{
-    display: inline-block;
     background-color: white;
-    border-radius: 1.5em;
-    margin: 1.5em;
-    padding: 1.5em;
-    box-shadow: 0px 0px 5px gray;
+}
+.populararticle a{
+    text-decoration-line: none;
+}
+.populararticle .imgpart{
+    display: inline-block;
+    width: 30%;
+}
+.populararticle .textpart{
+    display: inline-block;
+    width: 30%;
 }
 .popularfigureimg{
     display: inline-block;
     object-fit: cover;
-    height: 6em;
+    height: 14em;
     width: 100%;
     border-radius: 1em 0 0 1em;
+}
+.populararticle a figcaption{
+    text-decoration-line: none;
+    font-weight: bold;
+    color: black;
+    padding-left: 10%;
+}
+.populararticle a p{
+    color: grey;
+    padding-left: 10%;
+}
+.populararticle a p strong{
+    color: black;
 }
 .activitiesarticle{
     display: inline-block;
