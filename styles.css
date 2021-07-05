@@ -370,6 +370,7 @@ footer nav section{
 }
 footer nav section h3{
     margin-left: 11%;
+    font-weight: bold;
 }
 footer nav section ul li{
     list-style-type: none;
