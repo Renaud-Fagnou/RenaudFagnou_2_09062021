@@ -34,6 +34,11 @@ body header nav ul li a:hover{
 body header nav ul li a:visited{
     color: none;
 }
+.activeaccomodation[data-active=true]{
+    color: #0065FC;
+    text-decoration-line: underline;
+    text-underline-offset: -3em;
+}
 .signupbutton{
 	background: none;
 	border: none;
@@ -54,7 +59,7 @@ h1{
     margin-top: 2em;
 }
 .secondarytext{
-    color: grey;
+    color: black;
     font-weight: bold;
     font-size: 0.9em;
 }
@@ -105,7 +110,8 @@ h1{
 .searchbutton{
 	background: #0065FC;
 	border-radius: 0 1em 1em 0;
-	padding: 0.75em;
+    border:inherit;
+	padding: 0.88em;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
@@ -149,22 +155,22 @@ h1{
     display: inline-block;
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    padding: 2%;
+    padding: 0.5%;
     margin: 1%;
     margin-left: 0%;
-    width: 55%;
+    width: 60%;
     vertical-align: top;
 }
 .accomodationsection h2{
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .accomodationarticle{
     display: inline-block;
     background-color: white;
     border-radius: 1.5em;
-    margin: 1%;
-    box-shadow: 0px 0px 5px gray;
-    width: 30%;
+    margin: 2%;
+    box-shadow: 0px 0px 5px 1px #DEDEDE;
+    width: 29%;
     height: 40%;
 }
 .accomodationarticle a{
@@ -194,20 +200,21 @@ h1{
 }
 .stars{
     padding-left: 10%;
-    padding-bottom: 10%;
     color: #0065FC;
+    line-height: 2em;
 }
 .starsfalse{
     color: #F2F2F2;
 }
 .accomodationsection div .more{
     margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 2%;
 }
 .accomodationsection div .more a{
     text-decoration-line: none;
     color: black;
     font-weight: bold;
-    margin-left: 1%;
 }
 figure{
     margin: 5px;
@@ -219,7 +226,7 @@ aside{
     padding: 1%;
     margin: 1%;
     margin-right: 0%;
-    width: 36%;
+    width: 30%;
 }
 aside h2{
     display: flex;
@@ -231,7 +238,8 @@ aside h2{
     background-color: white;
     border-radius: 1.5em;
     margin: 5%;
-    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 10%;
+    box-shadow: 0px 0px 5px 1px #DEDEDE;
 }
 .populararticle a{
     text-decoration-line: none;
@@ -242,20 +250,21 @@ aside h2{
 }
 .populararticle .textpart{
     display: inline-block;
-    width: 40%;
+    width: 55%;
 }
 .popularfigureimg{
-    display: inline-block;
     object-fit: cover;
     height: 9.25em;
     width: 100%;
     border-radius: 1em 0 0 1em;
 }
 .populararticle a figcaption{
+    display: inline-block;
     text-decoration-line: none;
     font-weight: bold;
     color: black;
     padding-left: 10%;
+    vertical-align: top;
 }
 .populararticle a p{
     color: grey;
@@ -280,7 +289,7 @@ aside h2{
 }
 .activitiesarticle1{
     display: inline-block;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px 1px #DEDEDE;
     border-radius: 1.5em;
     margin: 2%;
     width: 20%;
@@ -292,7 +301,7 @@ aside h2{
 }
 .activitiesarticle2{
     display: inline-block;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px 1px #DEDEDE;
     border-radius: 1.5em;
     margin: 2%;
     width: 20%;
@@ -303,7 +312,7 @@ aside h2{
 }
 .activitiesarticle3{
     display: inline-block;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px 1px #DEDEDE;
     border-radius: 1.5em;
     margin: 2%;
     width: 20%;
@@ -314,7 +323,7 @@ aside h2{
 }
 .activitiesarticle4{
     display: inline-block;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px 1px #DEDEDE;
     border-radius: 1.5em;
     margin: 2%;
     width: 20%;
@@ -325,7 +334,7 @@ aside h2{
 }
 .activitiesarticle5{
     display: inline-block;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px 1px #DEDEDE;
     border-radius: 1.5em;
     margin: 2%;
     width: 20%;
@@ -336,7 +345,7 @@ aside h2{
 }
 .activitiesarticle6{
     display: inline-block;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 5px 1px #DEDEDE;
     border-radius: 1.5em;
     margin: 2%;
     width: 20%;
