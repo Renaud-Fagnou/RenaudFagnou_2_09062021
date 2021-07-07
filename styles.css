@@ -2,6 +2,10 @@
 html{
     font-family: raleway;
 }
+.container{
+    width: 1920px;
+    height: 1080px;
+}
 body header{
     display: inline-block;
     padding-top: 2em;
@@ -11,7 +15,7 @@ body header img{
     float: left;
 }
 body header nav{
-    margin-right: 1%;
+    margin-right: 5%;
 }
 body header nav ul{
     text-align: right;
@@ -19,11 +23,6 @@ body header nav ul{
 body header nav ul li{
     display: inline-block;
     list-style-type: none;
-}
-body header nav ul li a{
-    text-decoration-line: none;
-    color: grey;
-    font-weight: bold;
     margin-right: 0.5em;
 }
 body header nav ul li a:hover{
@@ -34,10 +33,20 @@ body header nav ul li a:hover{
 body header nav ul li a:visited{
     color: none;
 }
-.activeaccomodation[data-active=true]{
+.linkaccomodation{
+    color: #0065FC;
+    font-weight: bold;
+}
+.linkaccomodation:link{
     color: #0065FC;
     text-decoration-line: underline;
     text-underline-offset: -3em;
+}
+.linkactivities{
+    text-decoration-line: none;
+    color: grey;
+    font-weight: bold;
+    
 }
 .signupbutton{
 	background: none;
@@ -184,7 +193,7 @@ h1{
 }
 .accomodationfigureimg{
     object-fit: cover;
-    height: 6em;
+    height: 10em;
     width: 100%;
     border-radius: 1em 1em 0 0;
 }
@@ -240,6 +249,7 @@ aside h2{
     margin: 5%;
     margin-bottom: 10%;
     box-shadow: 0px 0px 5px 1px #DEDEDE;
+    height: 12em;
 }
 .populararticle a{
     text-decoration-line: none;
@@ -384,6 +394,7 @@ footer nav section h3{
 footer nav section ul li{
     list-style-type: none;
     text-align: left;
+    margin-bottom: 1%;
 }
 
 footer nav section ul li a{
