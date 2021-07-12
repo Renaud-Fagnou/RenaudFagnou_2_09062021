@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
 html{
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
 }
 .marginleft{
     margin-left: 2%;
+}
+.container{
+    max-width: 1900px;
+    margin: 0 auto;
 }
 body header{
     display: inline-block;
@@ -62,14 +66,14 @@ body header nav ul li a:visited{
     text-decoration-thickness: 2px;
 }
 h1{
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     margin-top: 2em;
 }
 .secondarytext{
     color: black;
-    font-weight: bold;
     font-size: 0.9em;
+    font-weight: 4;
 }
 .searchbarzone form p i{
     background-color: #F2F2F2;
@@ -168,18 +172,23 @@ h1{
     margin-left: 0%;
     width: 60%;
     vertical-align: top;
+    min-height: 800px;
 }
 .accomodationsection h2{
     margin-left: 2%;
+    margin-bottom: 2em;
 }
 .accomodationarticle{
     display: inline-block;
     background-color: white;
     border-radius: 1.5em;
-    margin: 2%;
-    box-shadow: 0px 0px 5px 1px #DEDEDE;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    box-shadow: 0px 0px 10px 5px #D8D8D8;
     width: 29%;
     height: 40%;
+    min-height: 40%;
 }
 .accomodationarticle a{
     text-decoration-line: none;
@@ -237,14 +246,14 @@ aside{
     margin: 1%;
     margin-right: 0%;
     width: 30%;
-    height: 50em;
+    height: 800px;
 }
 aside h2{
     display: flex;
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 8%;
+    margin-bottom: 2em;
 }
 .populararticle{
     background-color: white;
@@ -252,9 +261,10 @@ aside h2{
     margin: 5%;
     margin-bottom: 10%;
     box-shadow: 0px 0px 5px 1px #DEDEDE;
-    height: 12em;
+    height: 24%;
 }
 .populararticle a{
+    display: flex;
     text-decoration-line: none;
 }
 .populararticle .imgpart{
@@ -262,44 +272,35 @@ aside h2{
     width: 40%;
 }
 .populararticle .textpart{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 55%;
-    height: 100%;
-    vertical-align: top;
 }
 .popularfigureimg{
     object-fit: cover;
-    height: 11.3em;
+    height: 11.35em;
     width: 100%;
     border-radius: 1em 0 0 1em;
 }
 .populararticle a h3{
-    display: inline-block;
+    background-color: blueviolet;
     text-decoration-line: none;
     font-weight: bold;
     color: black;
     padding-left: 10%;
-    vertical-align: top;
 }
 .populararticle a p{
+    background-color: burlywood;
     color: grey;
     padding-left: 10%;
-    margin-top: -0.5em;
 }
 .populararticle a p strong{
     color: black;
 }
-.populararticle .stars1{
+.populararticle .stars{
     padding-left: 10%;
     color: #0065FC;
     line-height: 2em;
-    margin-top: 4em;
-}
-.populararticle .stars2{
-    padding-left: 10%;
-    color: #0065FC;
-    line-height: 2em;
-    margin-top: 5.25em;
 }
 .activitiessection{
     display: inline-block;
@@ -403,6 +404,7 @@ footer nav{
 }
 footer nav section{
     margin-right:5%;
+    padding-bottom: 2%;
 }
 footer nav section h3{
     margin-left: 8.5%;
@@ -412,13 +414,9 @@ footer nav section ul li{
     list-style-type: none;
     text-align: left;
     margin-bottom: 3%;
-    font-weight: bold;
 }
 
 footer nav section ul li a{
     text-decoration-line: none;
     color: black;
-}
-footer nav section ul li a:hover{
-    text-decoration-line: underline;
 }
