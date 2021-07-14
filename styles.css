@@ -129,6 +129,7 @@ h1{
 }
 .filters{
     display: flex;
+    flex-wrap: wrap;
 }
 .filters h3{
     float: left;
@@ -423,6 +424,16 @@ footer nav section ul li a{
 @media all and (max-width: 1024px){
     html{
         width: auto;
+    }
+    .filterstitle{
+        width: 1250px;
+    }
+    .accomodationflex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    aside{
+        width: 95%;
     }
     .activitiesflex{
         display: flex;
