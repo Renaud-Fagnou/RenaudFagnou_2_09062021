@@ -3,7 +3,7 @@ html{
     font-family: 'Raleway', sans-serif;
 }
 .marginleft{
-    margin-left: 2%;
+    margin-left: 3%;
 }
 .container{
     max-width: 1900px;
@@ -170,11 +170,15 @@ h1{
     background-color: #F2F2F2;
     border-radius: 1.5em;
     padding: 1%;
-    margin: 1%;
-    margin-left: 0%;
+    margin-top: 1%;
+    margin-right: 2%;
     width: 60%;
     vertical-align: top;
     min-height: 800px;
+}
+.accomodationsection div{
+    display: flex;
+    flex-wrap: wrap;
 }
 .accomodationsection h2{
     margin-left: 2%;
@@ -188,17 +192,19 @@ h1{
     margin-left: 2%;
     margin-bottom: 4%;
     box-shadow: 0px 0px 10px 5px #D8D8D8;
-    width: 29%;
-    min-height: 40%;
+    width: 29.33%;
+    overflow: auto;
 }
 .accomodationarticle a{
     text-decoration-line: none;
+    overflow: auto;
 }
 .accomodationarticle a figcaption{
     text-decoration-line: none;
     font-weight: bold;
     color: black;
-    padding-left: 8.5%;
+    padding-left: 10%;
+    margin-inline-start: -4px;
 }
 .accomodationfigureimg{
     object-fit: cover;
@@ -220,8 +226,9 @@ h1{
 .accomodationarticle .stars{
     padding-left: 10%;
     color: #0065FC;
-    line-height: 2em;
-    margin-top: -1em;
+    margin-top: -0.8em;
+    margin-bottom: 0.4em;
+    align-items: center;
 }
 .starsfalse{
     color: #F2F2F2;
@@ -230,6 +237,7 @@ h1{
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
+    width: 100%;
 }
 .accomodationsection div .more a{
     text-decoration-line: none;
@@ -244,10 +252,9 @@ aside{
     background-color: #F2F2F2;
     border-radius: 1.5em;
     padding: 1%;
-    margin: 1%;
-    margin-right: 0%;
+    margin-top: 1%;
     width: 30%;
-    height: 800px;
+    min-height: 800px;
 }
 aside h2{
     display: flex;
@@ -260,7 +267,7 @@ aside h2{
     background-color: white;
     border-radius: 1.5em;
     margin: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     box-shadow: 0px 0px 5px 1px #DEDEDE;
     height: 24%;
 }
@@ -276,7 +283,8 @@ aside h2{
     display: flex;
     flex-direction: column;
     width: 45%;
-    height: 190px;
+    height: 196px;
+    overflow: auto;
 }
 .popularfigureimg{
     object-fit: cover;
@@ -289,12 +297,10 @@ aside h2{
     font-weight: bold;
     color: black;
     padding-left: 10%;
-    margin-bottom: 0;
 }
 .populararticle a p{
     color: black;
     padding-left: 10%;
-    margin-bottom: 28%;
 }
 .populararticle a p strong{
     color: black;
@@ -322,10 +328,11 @@ aside h2{
     color: black;
 }
 .activitiessection .activitiesflex img{
-    width: 103%;
-    margin-left: -0.35em;
-    margin-top: -0.6em;
-    border-radius: 2em 2em 0 0;
+    width: 100%;
+    overflow: hidden;
+}
+.activitiessection figure{
+    margin: 0%;
 }
 .activitiessection .activitiesflex figcaption{
     margin-left: 5%;
@@ -405,11 +412,14 @@ footer nav{
 }
 footer nav section{
     margin-right:5%;
+    margin-left: 5%;
     padding-bottom: 2%;
 }
 footer nav section h3{
-    margin-left: 8.5%;
     font-weight: bold;
+}
+footer nav section ul{
+    padding-inline-start: inherit;
 }
 footer nav section ul li{
     list-style-type: none;
@@ -421,9 +431,12 @@ footer nav section ul li a{
     text-decoration-line: none;
     color: black;
 }
-@media all and (max-width: 1024px){
+@media all and (max-width: 1416px){
     html{
         width: auto;
+        max-width: 1033px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .filterstitle{
         width: 1250px;
@@ -432,8 +445,12 @@ footer nav section ul li a{
         display: flex;
         flex-direction: column-reverse;
     }
+    .accomodationsection{
+        background-color: inherit;
+    }
     aside{
         width: 95%;
+        border-radius: inherit;
     }
     .activitiesflex{
         display: flex;
@@ -442,15 +459,52 @@ footer nav section ul li a{
     .col{
         width: auto;
     }
+    .accomodationsection{
+        width: 95%;
+    }
+    .accomodationarticle{
+        width: 100%;
+    }
     .activitiesarticle1{
-        width: 435.5px;
-        height: 196.5px;
+        margin-bottom: 5%;
+    }
+    .activitiesarticle1 img{
+        height: 12em;
+    }
+    .activitiesarticle2{
+        margin-bottom: 5%;
+    }
+    .activitiesarticle2 img{
+        height: 12em;
+    }
+    .activitiesarticle3{
+        margin-bottom: 5%;
+    }
+    .activitiesarticle3 img{
+        height: 12em;
+    }
+    .activitiesarticle4{
+        margin-bottom: 5%;
+    }
+    .activitiesarticle4 img{
+        height: 12em;
+    }
+    .activitiesarticle5{
+        margin-bottom: 5%;
+    }
+    .activitiesarticle5 img{
+        height: 12em;
+    }.activitiesarticle6{
+        margin-bottom: 5%;
+    }
+    .activitiesarticle6 img{
+        height: 12em;
+    }
+    footer section{
+        width: 100%;
     }
     footer nav{
         display: flex;
         flex-direction: column;
-    }
-        .signupbutton{
-            float: top;
     }
 }
