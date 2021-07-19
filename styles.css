@@ -33,7 +33,6 @@ body header nav ul li a:hover{
 }
 .linkaccomodation{
     color: #0065FC;
-    font-weight: bold;
 }
 .linkaccomodation:link{
     color: #0065FC;
@@ -44,7 +43,6 @@ body header nav ul li a:hover{
 .linkactivities{
     text-decoration-line: none;
     color: grey;
-    font-weight: bold;
     
 }
 .signupbutton{
@@ -55,7 +53,6 @@ body header nav ul li a:hover{
 	cursor: pointer;
 	outline: inherit;
     color: #0065FC;
-    font-weight: bold;
 }
 .signupbutton:hover{
     text-decoration-line: underline;
@@ -215,7 +212,7 @@ h1{
 .accomodationarticle a p{
     color: black;
     padding-left: 10%;
-    margin-top: -0.8em;
+    margin-top: 0;
 }
 .accomodationarticle a p strong{
     color: black;
@@ -254,7 +251,7 @@ aside{
     padding: 1%;
     margin-top: 1%;
     width: 30%;
-    min-height: 800px;
+    height: 800px;
 }
 aside h2{
     display: flex;
@@ -280,11 +277,12 @@ aside h2{
     width: 40%;
 }
 .populararticle .textpart{
+    background-color: lawngreen;
     display: flex;
     flex-direction: column;
-    width: 45%;
-    height: 196px;
+    width: 100%;
     overflow: auto;
+    height: 50%;
 }
 .popularfigureimg{
     object-fit: cover;
@@ -297,18 +295,23 @@ aside h2{
     font-weight: bold;
     color: black;
     padding-left: 10%;
+    margin-bottom: 0;
 }
 .populararticle a p{
     color: black;
     padding-left: 10%;
+    margin-top: 0;
 }
 .populararticle a p strong{
     color: black;
 }
 .populararticle .stars{
+    background-color: khaki;
     padding-left: 10%;
     color: #0065FC;
     line-height: 2em;
+    height: 20%;
+    width: 100%;
 }
 .activitiessection{
     display: inline-block;
