@@ -259,7 +259,7 @@ aside{
     padding: 1%;
     margin-top: 1%;
     width: 30%;
-    height: 800px;
+    min-height: 800px;
 }
 aside h2{
     display: flex;
@@ -445,7 +445,7 @@ footer nav section ul li a{
     text-decoration-line: none;
     color: black;
 }
-@media all and (max-width: 700px){
+@media all and (max-width: 1024px){
     html{
         width: auto;
         max-width: 1033px;
@@ -455,8 +455,11 @@ footer nav section ul li a{
     .filterstitle{
         width: 1250px;
     }
-    .searchbarzone form{
-        width: 100%;
+    #searchbar{
+        width: 85%;
+    }
+    #mapicon{
+        width: 2%;
     }
     .accomodationflex{
         display: flex;
