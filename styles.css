@@ -47,7 +47,7 @@ body header nav ul li a:hover{
 .signup{
     color: #0065FC;
     text-decoration-line: none;
-    margin-right: 5em;
+    margin-right: 4em;
     margin-left: 10em;
 }
 .signup:hover{
@@ -64,10 +64,11 @@ h1{
     color: black;
     font-size: 0.9em;
 }
-.searchbarzone form p{
+.searchbarzone form{
     display: flex;
+    margin-bottom: 2%;
 }
-.searchbarzone form p i{
+#mapicon{
     background-color: #F2F2F2;
     border-radius: 1em 0 0 1em;
 	cursor: pointer;
@@ -110,7 +111,7 @@ h1{
     width: 0.5em;
     border: 3px solid #F2F2F2;
 }
-.searchbutton{
+.searchbutton1{
 	background: #0065FC;
 	border-radius: 0 1em 1em 0;
     border:inherit;
@@ -121,6 +122,15 @@ h1{
     color: white;
     font-weight: bold;
     line-height: 1.7em;
+}
+.searchbutton2{
+    display: none;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 1em 1em 1em 1em;
+    padding: 0 1.5em;
+    cursor: pointer;
 }
 .filters{
     display: flex;
@@ -142,7 +152,7 @@ h1{
     transition-duration: 0.25s;
 }
 .filtersgeneralstyle:hover {
-    background-color: #0065fc;
+    background-color: #DEEBFF;
     transform: scale(1.1);
 }
 .filtersicon{
@@ -274,12 +284,14 @@ aside h2{
     display: inline-block;
     width: 40%;
 }
+.containerText{
+    width: 60%;
+    overflow: auto;
+}
 .populararticle .textpart{
     display: flex;
     flex-direction: column;
-    overflow: auto;
     height: 80%;
-    width: 11em;
 }
 .popularfigureimg{
     object-fit: cover;
@@ -421,7 +433,7 @@ footer nav section h3{
     font-weight: bold;
 }
 footer nav section ul{
-    padding-inline-start: inherit;
+    padding: 0;
 }
 footer nav section ul li{
     list-style-type: none;
@@ -433,7 +445,7 @@ footer nav section ul li a{
     text-decoration-line: none;
     color: black;
 }
-@media all and (max-width: 1416px){
+@media all and (max-width: 700px){
     html{
         width: auto;
         max-width: 1033px;
@@ -442,6 +454,9 @@ footer nav section ul li a{
     }
     .filterstitle{
         width: 1250px;
+    }
+    .searchbarzone form{
+        width: 100%;
     }
     .accomodationflex{
         display: flex;
@@ -508,5 +523,11 @@ footer nav section ul li a{
     footer nav{
         display: flex;
         flex-direction: column;
+    }
+    .searchbutton1{
+        display: none;
+    }
+    .searchbutton2{
+        display: block;
     }
 }
