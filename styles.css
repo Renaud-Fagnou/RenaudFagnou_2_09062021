@@ -19,19 +19,24 @@ body header img{
 }
 body header nav ul{
     text-align: right;
+    max-width: 95%;
 }
 body header nav ul li{
     display: inline-block;
     list-style-type: none;
 }
-body header nav ul li a:hover{
+body header nav ul li strong{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+body header nav ul li:hover{
     color: #0065FC;
     text-decoration-line: none;
-    border-top: #0065FC solid 2px;
-    padding-top: 2em;
 }
 .linkaccomodation{
     color: #0065FC;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 .linkaccomodation:link{
     color: #0065FC;
@@ -42,18 +47,26 @@ body header nav ul li a:hover{
 .linkactivities{
     text-decoration-line: none;
     color: grey;
-    margin-left: 10em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+.linkactivities:hover{
+    color: #0065FC;
+    text-decoration-line: none;
+    border-top: #0065FC solid 2px;
+    padding-top: 2em;
 }
 .signup{
     color: #0065FC;
     text-decoration-line: none;
-    margin-right: 4em;
-    margin-left: 10em;
 }
 .signup:hover{
     text-decoration-line: none;
     border-top: #0065FC solid 2px;
     padding-top: 2em;
+}
+.navsmart2{
+    display: none;
 }
 h1{
     font-size: 1.5em;
@@ -178,6 +191,7 @@ h1{
     margin-right: 2%;
     width: 61.5%;
     vertical-align: top;
+    overflow: auto;
 }
 .accomodationsection div{
     display: flex;
@@ -209,7 +223,7 @@ h2{
     padding-left: 1em;
 }
 .accomodationarticle a figcaption h3{
-    margin-bottom: 0;
+    margin-bottom: 0.25em;
     margin-top: 0;
 }
 .accomodationfigureimg{
@@ -262,6 +276,7 @@ aside{
     padding: 1%;
     margin-top: 1%;
     width: 28.5%;
+    overflow: auto;
 }
 aside h2{
     display: flex;
@@ -308,7 +323,8 @@ aside h2{
     font-weight: bold;
     color: black;
     padding-left: 10%;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 .populararticle a p{
     color: black;
@@ -456,23 +472,90 @@ footer nav section ul li a{
         max-width: 1033px;
         margin-left: auto;
         margin-right: auto;
+        font-size: 150%;
+    }
+    .marginleft{
+        margin: 0;
     }
     .container{
         max-width: 600px;
         margin: 0 auto;
     }
+    .navsmart1{
+        display: none;
+    }
+    .signup:hover{
+        border-top: none;
+    }
+    body header img {
+        padding-top: 2.75%;
+    }
+    body header nav ul {
+        max-width: 100%;
+        padding: 0;
+    }
+    .navsmart2{
+        display: flex;
+        width: 100%;
+        margin-top: 5em;
+    }
+    .navsmart2 li{
+        width: 50%;
+        text-align: justify;
+        border-bottom: #F2F2F2 solid 2px;
+        padding-bottom: 2em;
+        text-align: center;
+    }
+    .linkactivities:hover{
+        color: #0065FC;
+        text-decoration-line: none;
+        border-top: inherit;
+        padding-top: 0;
+    }
+    body header nav ul li:hover{
+        color: #0065FC;
+        text-decoration-line: none;
+        border-bottom: #0065FC solid 2px;
+        border-top: none;
+        padding-bottom: 2em;
+    }
+    .linkaccomodation:link{
+        color: #0065FC;
+        text-decoration-line: none;
+        border-bottom: #0065FC solid 2px;
+        border-top: none;
+        padding-bottom: 2em;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
     .filterstitle{
         width: 1250px;
     }
     .filters a{
-        font-size: 1.5em;
         margin-bottom: 1em;
     }
     #searchbar{
         width: 85%;
+        font-size: 85%;
     }
     #mapicon{
         width: 2%;
+    }
+    .populararticle {
+        height: 300px;
+        width: 90%;
+    }
+    .containerText{
+        height: 300px;
+    }
+    .populararticle .imgpart {
+        width: 40%;
+    }
+    .popularfigureimg {
+        object-fit: cover;
+        width: 100%;
+        height: 12em;
+        border-radius: 1em 0 0 1em;
     }
     .accomodationflex{
         display: flex;
@@ -481,10 +564,19 @@ footer nav section ul li a{
     .accomodationsection{
         background-color: inherit;
     }
+    .accomodationarticle {
+        height: 100%;
+        margin-bottom: 1em;
+    }
+    .accomodationfigureimg {
+        object-fit: cover;
+        height: 9em;
+        width: 100%;
+        border-radius: 1em 1em 0 0;
+    }
     aside{
-        width: 95%;
+        width: 100%;
         border-radius: inherit;
-        height: 900px;
     }
     .activitiesflex{
         display: flex;
@@ -494,10 +586,14 @@ footer nav section ul li a{
         width: auto;
     }
     .accomodationsection{
-        width: 95%;
+        width: 93%;
+        padding-left: 4%;
     }
     .accomodationarticle{
         width: 100%;
+    }
+    .activitiessection{
+        margin-left: 4%;
     }
     .activitiesarticle1{
         margin-bottom: 5%;
@@ -533,6 +629,9 @@ footer nav section ul li a{
     }
     .activitiesarticle6 img{
         height: 12em;
+    }
+    footer{
+        margin-left: 1.5%;
     }
     footer section{
         width: 100%;
