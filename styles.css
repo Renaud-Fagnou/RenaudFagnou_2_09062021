@@ -490,6 +490,9 @@ footer nav section ul li a{
     body header img {
         padding-top: 2.75%;
     }
+    .signup:hover{
+        border-bottom: none;
+    }
     body header nav ul {
         max-width: 100%;
         padding: 0;
@@ -511,13 +514,11 @@ footer nav section ul li a{
         text-decoration-line: none;
         border-top: inherit;
         padding-top: 0;
-    }
-    body header nav ul li:hover{
-        color: #0065FC;
-        text-decoration-line: none;
-        border-bottom: #0065FC solid 2px;
         border-top: none;
         padding-bottom: 2em;
+        border-bottom: #0065FC solid 2px;
+        padding-left: 35%;
+        padding-right: 35%;
     }
     .linkaccomodation:link{
         color: #0065FC;
