@@ -462,7 +462,7 @@ footer nav section ul li a{
         margin: 0;
     }
     .accomodationsection{
-        width: 95%;
+        width: 97.75%;
     }
     .accomodationflex{
         display: flex;
@@ -478,7 +478,7 @@ footer nav section ul li a{
     aside{
         display: flex;
         flex-wrap: wrap;
-        width: 95%;
+        width: 97.75%;
     }
     aside h2{
         width: 100%;
@@ -519,7 +519,7 @@ footer nav section ul li a{
         height: 70%;
     }
     .activitiessection{
-        width: 94%;
+        width: 97%;
         margin-left: 2%;
     }
     .activitiesflex {
@@ -644,7 +644,7 @@ footer nav section ul li a{
         font-size: 100%;
     }
     aside{
-        width: 97%;
+        width: 100%;
         border-radius: inherit;
         padding: 0.5%;
         padding-bottom: 2em;
@@ -703,10 +703,11 @@ footer nav section ul li a{
         background-color: inherit;
         margin-top: 1.5em;
         padding-left: 4%;
-        width: 89%;
+        width: 90%;
     }
     .accomodationsection h2{
         margin-bottom: 3%;
+        margin-left: 4%;
     }
     .accomodationarticle{
         height: 100%;
@@ -737,7 +738,7 @@ footer nav section ul li a{
     }
     .more{
         margin-bottom: 10%;
-        margin-left: 0;
+        margin-left: 4%;
         margin-top: 1.5em;
     }
     .activitiessection{
