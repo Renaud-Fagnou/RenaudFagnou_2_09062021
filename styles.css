@@ -175,6 +175,9 @@ main{
     font-weight: bold;
     margin: 1em;
 }
+.searching .secondarytext{
+    line-height: 2em;
+}
 .accomodationflex{
     display: flex;
 }
