@@ -434,15 +434,15 @@ footer section{
 }
 footer nav{
     display: flex;
+    justify-content: space-between;
 }
 footer nav section{
-    margin-right:5%;
-    margin-left: 5%;
     padding-bottom: 2%;
     margin-top: 1.5em;
 }
 footer nav section h3{
     font-weight: bold;
+    margin-left: 5%;
 }
 footer nav section ul{
     padding: 0;
@@ -456,6 +456,7 @@ footer nav section ul li{
 footer nav section ul li a{
     text-decoration-line: none;
     color: black;
+    margin-left: 5%;
 }
 @media all and (max-width: 1024px){
     main{
@@ -647,7 +648,6 @@ footer nav section ul li a{
         font-size: 100%;
     }
     aside{
-        width: 100%;
         border-radius: inherit;
         padding: 0.5%;
         padding-bottom: 2em;
