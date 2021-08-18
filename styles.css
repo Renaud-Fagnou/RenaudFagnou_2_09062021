@@ -465,7 +465,7 @@ footer nav section ul li a{
         margin: 0;
     }
     .accomodationsection{
-        width: 98%;
+        width: 99%;
     }
     .accomodationflex{
         display: flex;
@@ -481,7 +481,7 @@ footer nav section ul li a{
     aside{
         display: flex;
         flex-wrap: wrap;
-        width: 98%;
+        width: 99%;
     }
     aside h2{
         width: 100%;
@@ -535,6 +535,7 @@ footer nav section ul li a{
     }
     footer{
         font-size: 95%;
+        width: 101%;
     }
 }
 @media all and (max-width: 480px){
