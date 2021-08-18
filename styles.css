@@ -535,7 +535,6 @@ footer nav section ul li a{
         margin-bottom: 3%;
     }
     footer{
-        width: 95.25%;
         font-size: 95%;
     }
 }
@@ -632,7 +631,7 @@ footer nav section ul li a{
         margin-right: 0.75em;
     }
     #searchbar{
-        width: 85%;
+        width: 100%;
         font-size: 85%;
     }
     #mapicon{
@@ -651,6 +650,7 @@ footer nav section ul li a{
         border-radius: inherit;
         padding: 0.5%;
         padding-bottom: 2em;
+        width: 97%;
     }
     aside h2{
         margin-top: 2em;
@@ -705,8 +705,8 @@ footer nav section ul li a{
     .accomodationsection{
         background-color: inherit;
         margin-top: 1.5em;
-        padding-left: 4%;
-        width: 90%;
+        padding-left: 2%;
+        width: 92%;
     }
     .accomodationsection h2{
         margin-bottom: 3%;
@@ -745,8 +745,8 @@ footer nav section ul li a{
         margin-top: 1.5em;
     }
     .activitiessection{
-        margin-left: 4%;
-        width: 95%;
+        margin-left: 2.5%;
+        width: 97%;
     }
     .activitiesfigure h3{
         margin-top: 0.5em;
