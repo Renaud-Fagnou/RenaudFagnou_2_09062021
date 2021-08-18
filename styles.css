@@ -451,12 +451,12 @@ footer nav section ul li{
     list-style-type: none;
     text-align: left;
     margin-bottom: 3%;
+    margin-left: 5%;
 }
 
 footer nav section ul li a{
     text-decoration-line: none;
     color: black;
-    margin-left: 5%;
 }
 @media all and (max-width: 1024px){
     main{
