@@ -471,7 +471,7 @@ footer nav section ul li a{
     .accomodationflex{
         display: flex;
         flex-direction: column-reverse;
-        width: 98%;
+        width: 100%;
     }
     .accomodationarticle{
         width: 45%;
@@ -482,7 +482,7 @@ footer nav section ul li a{
     aside{
         display: flex;
         flex-wrap: wrap;
-        width: 97.75%;
+        width: 100%;
     }
     aside h2{
         width: 100%;
@@ -523,7 +523,7 @@ footer nav section ul li a{
         height: 70%;
     }
     .activitiessection{
-        width: 97%;
+        width: 100%;
         margin-left: 2%;
     }
     .activitiesflex {
