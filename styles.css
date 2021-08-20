@@ -24,8 +24,7 @@ body header nav ul li{
     list-style-type: none;
 }
 body header nav ul li strong{
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 0 2em;
 }
 body header nav ul li:hover{
     color: #0065FC;
@@ -33,8 +32,7 @@ body header nav ul li:hover{
 }
 .linkaccomodation{
     color: #0065FC;
-    padding-right: 2em;
-    padding-left: 2em;
+    padding: 0 2em;
 }
 .linkaccomodation:link{
     color: #0065FC;
@@ -45,8 +43,7 @@ body header nav ul li:hover{
 .linkactivities{
     text-decoration-line: none;
     color: black;
-    padding-right: 2em;
-    padding-left: 2em;
+    padding: 0 2em;
 }
 .linkactivities:hover{
     color: #0065FC;
@@ -87,9 +84,7 @@ main{
 }
 #searchbar{
     background-color: inherit;
-    padding-top: 1.25em;
-    padding-bottom: 1em;
-    padding-left: 1.5em;
+    padding: 1.25em 0 1em 1.5em;
     border-color: #F2F2F2;
     border-left: none;
     border-right: none;
@@ -105,10 +100,7 @@ main{
 .searching .secondarytext i{
     font-size: 0.8em;
 	color: #0065FC;
-	padding: 0.5em;
-    padding-bottom: 1em;
-    padding-left: 0.8em;
-    padding-right: 0.6em;
+	padding: 0.5em 0.6em 1em 0.8em;
     margin-right: 0.5em;
     border-radius: 100%;
 	cursor: pointer;
@@ -186,8 +178,7 @@ main{
     background-color: #F2F2F2;
     border-radius: 1.5em;
     padding: 1%;
-    margin-top: 1%;
-    margin-right: 2%;
+    margin: 1% 2% 0 0;
     width: 61.5%;
     vertical-align: top;
 }
@@ -207,7 +198,7 @@ h2{
     background-color: white;
     border-radius: 1.5em;
     margin-top: 3%;
-    box-shadow: 0px 0px 15px #00000025;
+    box-shadow: 0 0 15px #00000025;
     width: 246px;
     height: 200px;
     overflow: auto;
@@ -217,8 +208,7 @@ h2{
 }
 .accomodationarticle a figcaption{
     color: black;
-    padding: 0;
-    padding-left: 1em;
+    padding: 0 0 0 1em;
 }
 .accomodationarticle a figcaption h3{
     margin-bottom: 0.25em;
@@ -233,8 +223,7 @@ h2{
 .accomodationarticle a p{
     color: black;
     padding-left: 1.25em;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 .accomodationarticle a p strong{
     color: black;
@@ -246,17 +235,14 @@ h2{
     display: inline-block;
     padding-left: 1.25em;
     color: #0065FC;
-    margin-bottom: 0.4em;
-    margin-top: 0.25em;
+    margin: 0.25em 0 0.4em 0;
 }
 .starsfalse{
     color: #F2F2F2;
 }
 .more{
     display: inline-block;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    margin-left: 2%;
+    margin: 5% 0 2% 2%;
     font-size: 1.1em;
 }
 .more a{
@@ -278,16 +264,13 @@ aside{
 aside h2{
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2em;
+    margin: 4.6% 5% 11% 5%;
 }
 .populararticle{
     background-color: white;
     border-radius: 1.5em;
-    margin: 5%;
-    margin-bottom: 6%;
-    box-shadow: 0px 0px 15px #00000025;
+    margin: 5% 5% 6% 5%;
+    box-shadow: 0 0 15px #00000025;
     height: 145px;
 }
 .populararticle a{
@@ -314,8 +297,7 @@ aside h2{
     font-weight: bold;
     color: black;
     padding-left: 10%;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+    margin: 0.5em 0;
 }
 .populararticle a p{
     color: black;
@@ -356,13 +338,13 @@ aside h2{
     overflow: hidden;
 }
 .activitiessection figure{
-    margin: 0%;
+    margin: 0;
 }
 .activitiessection .activitiesflex figcaption{
     margin-left: 5%;
 }
 .activitiesarticle1{
-    box-shadow: 0px 0px 15px #00000025;
+    box-shadow: 0 0 15px #00000025;
     border-radius: 1.5em;
     width: 100%;
 }
@@ -381,7 +363,7 @@ aside h2{
     height: 182.46px;
 }
 .activitiesarticle3{
-    box-shadow: 0px 0px 15px #00000025;
+    box-shadow: 0 0 15px #00000025;
     border-radius: 1.5em;
     width: 100%;
 }
@@ -390,7 +372,7 @@ aside h2{
     height: 112px;
 }
 .activitiesarticle4{
-    box-shadow: 0px 0px 15px #00000025;
+    box-shadow: 0 0 15px #00000025;
     border-radius: 1.5em;
     width: 100%;
 }
@@ -399,7 +381,7 @@ aside h2{
     height: 396px;
 }
 .activitiesarticle5{
-    box-shadow: 0px 0px 15px #00000025;
+    box-shadow: 0 0 15px #00000025;
     border-radius: 1.5em;
     width: 100%;
     margin-bottom: 13%;
@@ -409,7 +391,7 @@ aside h2{
     height: 140.35px;
 }
 .activitiesarticle6{
-    box-shadow: 0px 0px 15px #00000025;
+    box-shadow: 0 0 15px #00000025;
     border-radius: 1.5em;
     width: 100%;
 }
@@ -450,8 +432,7 @@ footer nav section ul{
 footer nav section ul li{
     list-style-type: none;
     text-align: left;
-    margin-bottom: 3%;
-    margin-left: 5%;
+    margin: 0 0 3% 5%;
 }
 footer nav section ul li a{
     text-decoration-line: none;
@@ -485,16 +466,14 @@ footer nav section ul li a{
     }
     aside h2{
         width: 100%;
-        margin-bottom: 3%;
-        margin-left: 1%;
-        margin-right: 2%;
+        margin-bottom: 0 2% 3% 1%;
     }
     .populararticle{
         display: inline-block;
         background-color: white;
         border-radius: 1.5em;
         margin: 0.5%;
-        box-shadow: 0px 0px 15px #00000025;
+        box-shadow: 0 0 15px #00000025;
         width: 32%;
         height: 230px;
     }
@@ -598,7 +577,6 @@ footer nav section ul li a{
         text-decoration-line: none;
         border-top: none;
         padding-top: 0;
-        border-top: none;
         padding-bottom: 1em;
         border-bottom: #0065FC solid 2px;
     }
@@ -648,15 +626,11 @@ footer nav section ul li a{
     }
     aside{
         border-radius: inherit;
-        padding: 0.5%;
-        padding-bottom: 2em;
+        padding: 0.5% 0.5% 8.75% 0.5%;
         width: 97%;
     }
     aside h2{
-        margin-top: 2em;
-        margin-bottom: 1em;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-top: 2em 1em 1em;
     }
     .populararticle{
         background-color: white;
@@ -664,18 +638,14 @@ footer nav section ul li a{
         box-shadow: 0px 0px 15px #00000025;
         height: 145px;
         width: 100%;
-        margin-bottom: 0.4em;
-        margin-top: 0.4em;
-        margin-left: 1em;
-        margin-right: 1em;
+        margin: 0.4em 1em;
     }
     .populararticle a{
         display: flex;
         flex-direction: row;
     }
     .populararticle a h3{
-        padding-left: 6%;
-        padding-top: 10%;
+        padding: 10% 0 0 6%; 
     }
     .populararticle a p{
         padding-left: 6%;
@@ -698,8 +668,7 @@ footer nav section ul li a{
     .accomodationflex{
         display: flex;
         flex-direction: column-reverse;
-        margin-right: 0;
-        margin-left: 2%;
+        margin: 0 0 0 2%;
         width: 100%;
     }
     .accomodationsection{
@@ -709,15 +678,13 @@ footer nav section ul li a{
         width: 92%;
     }
     .accomodationsection h2{
-        margin-bottom: 3%;
-        margin-left: 4%;
+        margin: 5% 0 3% 4%;
     }
     .accomodationarticle{
         height: 100%;
         margin-bottom: 1%;
         width: 99%;
-        margin-right: 1%;
-        margin-left: 3%;
+        margin: 3% 1% 1% 3%;
     }
     .accomodationarticle a figcaption h3{
         margin-bottom: 0;
@@ -729,8 +696,7 @@ footer nav section ul li a{
         border-radius: 1em 1em 0 0;
     }
     #activities{
-        margin-top: 5%;
-        margin-bottom: 9%;
+        margin: 5% 0 9% 0;
     }
     .activitiesflex{
         display: flex;
@@ -740,9 +706,7 @@ footer nav section ul li a{
         width: 100%;
     }
     .more{
-        margin-bottom: 10%;
-        margin-left: 4%;
-        margin-top: 1.5em;
+        margin-bottom: 7.75% 0 10% 4%;
     }
     .activitiessection{
         margin-left: 2.5%;
@@ -753,42 +717,42 @@ footer nav section ul li a{
     }
     .activitiesarticle1{
         margin-bottom: 7%;
-        box-shadow: 0px 0px 15px #00000025;
+        box-shadow: 0 0 15px #00000025;
     }
     .activitiesarticle1 img{
         height: 8em;
     }
     .activitiesarticle2{
         margin-bottom: 7%;
-        box-shadow: 0px 0px 15px #00000025;
+        box-shadow: 0 0 15px #00000025;
     }
     .activitiesarticle2 img{
         height: 8em;
     }
     .activitiesarticle3{
         margin-bottom: 7%;
-        box-shadow: 0px 0px 15px #00000025;
+        box-shadow: 0 0 15px #00000025;
     }
     .activitiesarticle3 img{
         height: 8em;
     }
     .activitiesarticle4{
         margin-bottom: 7%;
-        box-shadow: 0px 0px 15px #00000025;
+        box-shadow: 0 0 15px #00000025;
     }
     .activitiesarticle4 img{
         height: 8em;
     }
     .activitiesarticle5{
         margin-bottom: 7%;
-        box-shadow: 0px 0px 15px #00000025;
+        box-shadow: 0 0 15px #00000025;
     }
     .activitiesarticle5 img{
         height: 8em;
     }
     .activitiesarticle6{
         margin-bottom: 12.5%;
-        box-shadow: 0px 0px 15px #00000025;
+        box-shadow: 0 0 15px #00000025;
     }
     .activitiesarticle6 img{
         height: 8em;
